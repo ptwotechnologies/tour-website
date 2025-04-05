@@ -20,7 +20,7 @@
 
 .switch-box .slider::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 25px;
   width: 25px;
   left: 0px;
@@ -31,8 +31,8 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
   -webkit-box-shadow: 0 0px 15px #2020203d;
-          box-shadow: 0 0px 15px #2020203d;
-  background: white url("../img/night.png");
+  box-shadow: 0 0px 15px #2020203d;
+  background: white url('../img/night.png');
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -65,18 +65,23 @@
 
 .switch-box input:focus + .slider {
   -webkit-box-shadow: 0 0 1px #0f3041;
-          box-shadow: 0 0 1px #0f3041;
+  box-shadow: 0 0 1px #0f3041;
 }
 
 .switch-box input:checked + .slider:before {
   -webkit-transform: translateX(24px);
-          transform: translateX(24px);
-  background: white url("../img/sunny.png");
+  transform: translateX(24px);
+  background: white url('../img/sunny.png');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
   color: #ffffff !important;
 }
 
@@ -231,15 +236,39 @@
   background-color: #252525 !important;
 }
 
-.theme-dark .navbar-area .atorn-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+.theme-dark
+  .navbar-area
+  .atorn-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a {
   color: #ffffff !important;
 }
 
-.theme-dark .navbar-area .atorn-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+.theme-dark
+  .navbar-area
+  .atorn-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.active {
   color: #c8242f !important;
 }
 
-.theme-dark .navbar-area .atorn-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover {
+.theme-dark
+  .navbar-area
+  .atorn-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:hover {
   color: #c8242f !important;
 }
 
@@ -271,19 +300,43 @@
   background-color: #1d1d1d;
 }
 
-.theme-dark .atorn-responsive-nav .mean-container .mean-nav .navbar-nav .nav-item a {
+.theme-dark
+  .atorn-responsive-nav
+  .mean-container
+  .mean-nav
+  .navbar-nav
+  .nav-item
+  a {
   color: #ffffff;
 }
 
-.theme-dark .atorn-responsive-nav .mean-container .mean-nav .navbar-nav .nav-item a.active {
+.theme-dark
+  .atorn-responsive-nav
+  .mean-container
+  .mean-nav
+  .navbar-nav
+  .nav-item
+  a.active {
   color: #c8242f !important;
 }
 
-.theme-dark .atorn-responsive-nav .mean-container .mean-nav .navbar-nav .nav-item a:hover {
+.theme-dark
+  .atorn-responsive-nav
+  .mean-container
+  .mean-nav
+  .navbar-nav
+  .nav-item
+  a:hover {
   color: #c8242f !important;
 }
 
-.theme-dark .atorn-responsive-nav .mean-container .mean-nav .navbar-nav .nav-item .dropdown-menu {
+.theme-dark
+  .atorn-responsive-nav
+  .mean-container
+  .mean-nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu {
   background-color: #1d1d1d;
 }
 
@@ -293,22 +346,25 @@
   opacity: 0.7;
 }
 
-.theme-dark .low-card, .theme-dark .low-card-two {
+.theme-dark .low-card,
+.theme-dark .low-card-two {
   background-color: #0e0e0e;
 }
 
-.theme-dark .service-area, .theme-dark .our-service-area {
+.theme-dark .service-area,
+.theme-dark .our-service-area {
   background-color: #252525;
 }
 
-.theme-dark .service-card, .theme-dark .our-service-card {
+.theme-dark .service-card,
+.theme-dark .our-service-card {
   background-color: #0e0e0e;
 }
 
 .theme-dark .choose-card i {
   background-color: #0e0e0e;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .theme-dark .signle-fun-fact {
@@ -319,33 +375,59 @@
   background-color: #000000;
 }
 
-.theme-dark .testimonials-area .testimonials-slider .testimonials-slider-item .img-text {
+.theme-dark
+  .testimonials-area
+  .testimonials-slider
+  .testimonials-slider-item
+  .img-text {
   background-color: #252525 !important;
 }
 
-.theme-dark .testimonials-area .testimonials-slider.owl-theme .owl-nav .owl-prev, .theme-dark .testimonials-area .testimonials-slider.owl-theme .owl-nav .owl-next {
+.theme-dark
+  .testimonials-area
+  .testimonials-slider.owl-theme
+  .owl-nav
+  .owl-prev,
+.theme-dark
+  .testimonials-area
+  .testimonials-slider.owl-theme
+  .owl-nav
+  .owl-next {
   background-color: #0e0e0e !important;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 
-.theme-dark .testimonials-area .testimonials-slider.owl-theme .owl-nav .owl-prev:hover, .theme-dark .testimonials-area .testimonials-slider.owl-theme .owl-nav .owl-next:hover {
+.theme-dark
+  .testimonials-area
+  .testimonials-slider.owl-theme
+  .owl-nav
+  .owl-prev:hover,
+.theme-dark
+  .testimonials-area
+  .testimonials-slider.owl-theme
+  .owl-nav
+  .owl-next:hover {
   background-color: #c8242f !important;
 }
 
-.theme-dark .attorney-area, .theme-dark .blog-area {
-  background-color: #252525;
-}
-
-.theme-dark .attorney-card, .theme-dark .blog-card {
-  background-color: #0e0e0e;
-}
-
-.theme-dark .attor-details-item .attor-details-left .attor-social-details ul li a {
+.theme-dark
+  .attor-details-item
+  .attor-details-left
+  .attor-social-details
+  ul
+  li
+  a {
   color: #ffffff;
 }
 
-.theme-dark .attor-details-item .attor-details-left .attor-social-details ul li a:hover {
+.theme-dark
+  .attor-details-item
+  .attor-details-left
+  .attor-social-details
+  ul
+  li
+  a:hover {
   color: #c8242f;
 }
 
@@ -373,7 +455,9 @@
   color: #ffffff;
 }
 
-.theme-dark .services-details .comment-respond .comment-form-author input, .theme-dark .services-details .comment-respond .comment-form-email input, .theme-dark .services-details .comment-respond .comment-form-url input {
+.theme-dark .services-details .comment-respond .comment-form-author input,
+.theme-dark .services-details .comment-respond .comment-form-email input,
+.theme-dark .services-details .comment-respond .comment-form-url input {
   background-color: #0e0e0e;
 }
 
@@ -398,7 +482,8 @@
   color: #c8242f;
 }
 
-.theme-dark .footer-area, .theme-dark .footer-bottom {
+.theme-dark .footer-area,
+.theme-dark .footer-bottom {
   background-color: #0e0e0e;
 }
 

@@ -244,28 +244,13 @@
             }
         }
     }
-    .blog-area {
-        .section-title {
-            span{
-                &::before {
-                    width: 50px;
-                }
-            }
-        }
-    }
+
     .service-card {
         .service-text {
             text-align: center;
         }
     }
-    .blog-card {
-        .blog-card-text {
-            padding: 15px 20px;
-            h3 {
-                font-size: 20px;
-            }
-        }
-    }
+
     .attorney-card-text {
         padding: 20px 25px;
     }
@@ -650,14 +635,7 @@
     .signle-fun-fact {
         padding: 40px 40px;
     }
-    .blog-card {
-        text-align: center;
-        .blog-card-text {
-            h3 {
-                font-size: 18px;
-            }
-        }
-    }
+
     .bor-right:last-child {
         border-bottom: 1px solid #e5e5e5;
     }
@@ -797,13 +775,7 @@
             padding: 30px 40px;
         }
     }
-    .blog-card {
-        .blog-card-text {
-            h3 {
-                font-size: 20px;
-            }
-        }
-    }
+ 
     .bor-right {
         border-right: none;
     }
@@ -1029,14 +1001,7 @@
     .signle-fun-fact {
         padding: 40px 30px;
     }
-    .blog-card {
-        .blog-card-text {
-            padding: 20px;
-            h3 {
-                font-size: 20px;
-            }
-        }
-    }
+
     .service-card {
         .service-text {
             padding: 20px 15px;

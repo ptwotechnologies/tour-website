@@ -23,7 +23,6 @@ This files table contents are outlined below>>>>>
 ** - Fun Facts CSS
 ** - Case Study CSS
 ** - Right Way CSS
-** - blog CSS
 ** - Testimonials CSS
 ** - Attorneey CSS
 ** - Partner CSS
@@ -1565,31 +1564,9 @@ Service Area
   font-weight: 600;
 }
 
-.services-details-content .blog-list {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 15px;
-}
 
-.services-details-content .blog-list li {
-  list-style-type: none;
-  display: inline-block;
-  font-size: 14px;
-  color: #a8a7a5;
-  margin-right: 12px;
-}
 
-.services-details-content .blog-list li i {
-  color: #c8242f;
-  position: relative;
-  top: 0;
-  font-size: 17px;
-  margin-right: 4px;
-}
 
-.services-details-content .blog-list li a {
-  color: #a8a7a5;
-}
 
 .services-details-content p b {
   display: block;
@@ -2617,98 +2594,6 @@ Right Way Area
   margin-bottom: 0;
 }
 
-/*================================================
-blog Area
-=================================================*/
-.blog-area {
-  background-color: #f9f9f9;
-}
-
-.blog-area .section-title {
-  text-align: center;
-}
-
-.blog-area .section-title span::before {
-  width: 80px;
-  margin: auto;
-}
-
-.blog-card {
-  background-color: #ffffff;
-}
-
-.blog-card a img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-.blog-card .blog-card-text {
-  padding: 25px 30px;
-  margin-bottom: 30px;
-}
-
-.blog-card .blog-card-text h3 {
-  font-size: 22px;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.blog-card .blog-card-text h3 a {
-  color: #2d2d2d;
-}
-
-.blog-card .blog-card-text ul {
-  padding: 0;
-  margin: 0 0 15px;
-  list-style-type: none;
-}
-
-.blog-card .blog-card-text ul li {
-  display: inline-block;
-  margin-right: 15px;
-  color: #c8242f;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.blog-card .blog-card-text ul li i {
-  color: #c8242f;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.blog-card .blog-card-text p {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.blog-card .blog-card-text .read-more {
-  color: #c8242f;
-}
-
-.blog-card:hover {
-  background-color: #c8242f;
-}
-
-.blog-card:hover .blog-card-text h3 a {
-  color: #ffffff;
-}
-
-.blog-card:hover .blog-card-text ul li {
-  color: #ffffff;
-}
-
-.blog-card:hover .blog-card-text ul li i {
-  color: #ffffff;
-}
-
-.blog-card:hover p {
-  color: #ffffff;
-}
-
-.blog-card:hover .read-more {
-  color: #ffffff;
-}
 
 /*================================================
 Testimonials Area
