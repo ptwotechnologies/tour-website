@@ -3018,14 +3018,15 @@ Choose Area
 }
 
 .choose-img {
-  background-image: url('../img/why choose us section.png');
-  background-size: cover;
+  /* background-image: url('../img/services/why-choose.jpg'); */
+  background-size: contain;
   background-position: center center;
   position: relative;
   width: 90%;
   height: 100%;
   margin-right: 0;
   margin-left: auto;
+  /* object-fit: contain; */
 }
 
 .choose-img .video-box .video-btn {
@@ -4558,7 +4559,7 @@ Page banner Area
 About Video Area
 =================================================*/
 .about-video-area {
-  background-image: url('../img/about-video-bg.jpg');
+  background-image: url('../img/services/about-img2.jpg');
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -5127,3 +5128,34 @@ Gallery  Area
   background-color: #94be5d;
 }
 /*# sourceMappingURL=style.css.map */
+.team-section {
+  padding: 80px 0;
+}
+.team-member {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.team-member h3 {
+  color: #333;
+  margin: 0 0 5px;
+}
+.team-member p {
+  color: #666;
+}
+
+/* Media query for hover effects */
+@media (min-width: 992px) {
+  .desktop-hover-class:hover img {
+    transform: rotate(5deg) scale(1.1);
+  }
+  .desktop-hover-class:hover .attorney-card-text {
+    background-color: #c83136 !important;
+  }
+  .desktop-hover-class:hover .attorney-card-text h3 a {
+    color: #fff !important;
+  }
+  .desktop-hover-class:hover .attorney-card-text p {
+    color: #f0f0f0 !important;
+  }
+}

@@ -31,7 +31,26 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
     <!-- Title -->
-    <title>Atorn - Law Firm & Attorney Website HTML Template</title>
+    <title>LawAssist - Law Firm</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      /* Basic responsive structure */
+      @media (max-width: 991px) {
+        .pricing-container {
+          flex-direction: column;
+          align-items: center;
+        }
+        .pricing-card {
+          width: 100%;
+          max-width: 350px;
+          margin-bottom: 30px;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Preloder Area -->
@@ -54,13 +73,13 @@
                 <li>
                   <a href="mailto:hello@atorn.com">
                     <i class="las la-envelope"></i>
-                    hello@atorn.com
+                    info@lawassist.com
                   </a>
                 </li>
                 <li>
                   <a href="tel:+823-456-879">
                     <i class="las la-phone"></i>
-                    +0123 456 789
+                    +91 8766270884
                   </a>
                 </li>
               </ul>
@@ -140,11 +159,11 @@
                   </li>
 
                   <li class="nav-item">
-                    <a href="#" class="nav-link active"> Pricing </a>
+                    <a href="pricing.html" class="nav-link active"> Pricing </a>
                   </li>
 
                   <li class="nav-item">
-                    <a href="#ecosystem.html" class="nav-link"> Ecosystem </a>
+                    <a href="ecosystem.html" class="nav-link"> Ecosystem </a>
                   </li>
 
                   <li class="nav-item">
@@ -215,476 +234,581 @@
     </div>
     <!-- End Page banner Area -->
 
-    <!-- Start of Pricing Area -->
-    <div class="pricing-container">
-      <div class="pricing-card">
-        <h3>Starter Plan</h3>
-        <div class="price">₹2,999 / mo</div>
-        <ul class="features">
-          <li>Consultation: Up to 3</li>
-          <li>Document Review: Up to 2</li>
-          <li>Drafting Services: Not included</li>
-          <li>Legal Advice: Basic advice</li>
-          <li>Customer Support: Email support</li>
-        </ul>
-        <button class="get-started-btn">Get Started</button>
-      </div>
-
-      <div class="pricing-card">
-        <h3>Standard Plan</h3>
-        <div class="price">₹3,999 / mo</div>
-        <ul class="features">
-          <li>Consultation: Up to 7</li>
-          <li>Document Review: Up to 7 Reviews</li>
-          <li>Drafting Services: Basic 2 legal Notices</li>
-          <li>Legal Advice: Detailed</li>
-          <li>Customer Support: Response within 24 hours</li>
-        </ul>
-        <button class="get-started-btn">Get Started</button>
-      </div>
-
-      <div class="pricing-card">
-        <h3>Business Plan</h3>
-        <div class="price">₹4,999 / mo</div>
-        <ul class="features">
-          <li>Consultation: Unlimited</li>
-          <li>Document Review: Unlimited</li>
-          <li>Drafting Services: Full Service drafting</li>
-          <li>Legal Advice: Personalized legal advice</li>
-          <li>
-            Customer Support: Quick with direct contact to senior law experts
-          </li>
-        </ul>
-        <button class="get-started-btn">Get Started</button>
-      </div>
-    </div>
-
-    <!-- End of Pricing area -->
-
-    <!-- Choose Area -->
-    <!--  <div class="choose-area about-page-area pt-100 pb-70">
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>We Are Top Lawyers With <span> 25 Years</span> Of Experience</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+    <div style="padding: 60px 0; background-color: #f9f9f9">
+      <div style="max-width: 1200px; margin: 0 auto; padding: 0 15px">
+        <!-- Section Header -->
+        <div style="text-align: center; margin-bottom: 40px">
+          <h2 style="font-size: 32px; margin-bottom: 15px; color: #333">
+            Our Pricing Plans
+          </h2>
+          <p
+            style="
+              font-size: 16px;
+              color: #666;
+              max-width: 800px;
+              margin: 0 auto;
+            "
+          >
+            Choose the plan that fits your needs, and let us handle the legal
+            complexities while you focus on what matters most.
           </p>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <div class="choose-card">
-              <i class="las la-chart-pie"></i>
-              <h3>Long Experience</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
 
-            <div class="choose-card">
-              <i class="las la-chart-bar"></i>
-              <h3>Our Success Cases</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-
-            <div class="choose-card">
-              <i class="las la-user-tie"></i>
-              <h3>Professional Attorneys</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="choose-card">
-              <i class="lab la-accessible-icon"></i>
-              <h3>Legal Service</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-
-            <div class="choose-card">
-              <i class="las la-balance-scale"></i>
-              <h3>Free Consulting</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-
-            <div class="choose-card">
-              <i class="las la-user-astronaut"></i>
-              <h3>24/7 Support</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End Choose Area -->
-
-    <!-- Fun Fact Area -->
-    <!--  <div class="fun-facts-area pb-100">
-      <div class="container">
-        <div class="fun-facts-shape top">
-          <img src="assets/img/shape.png" class="shape1" alt="Shape" />
-          <img src="assets/img/shape.png" class="shape2" alt="Shape" />
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-3 col-sm-6">
-            <div class="signle-fun-fact">
-              <i class="las la-balance-scale"></i>
-              <h3><span class="odometer" data-count="5600">00</span> +</h3>
-              <p>Solved Cases</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <div class="signle-fun-fact">
-              <i class="las la-gavel"></i>
-              <h3><span class="odometer" data-count="4000">00</span> +</h3>
-              <p>Cases Won</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <div class="signle-fun-fact">
-              <i class="las la-trophy"></i>
-              <h3><span class="odometer" data-count="1500">00</span> +</h3>
-              <p>Awards Won</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6">
-            <div class="signle-fun-fact">
-              <i class="lab la-gitkraken"></i>
-              <h3><span class="odometer" data-count="10">00</span></h3>
-              <p>Top 10 Law Firms</p>
-            </div>
-          </div>
-        </div>
-        <div class="fun-facts-shape bottom">
-          <img src="assets/img/shape.png" class="shape1" alt="Shape" />
-          <img src="assets/img/shape.png" class="shape2" alt="Shape" />
-        </div>
-      </div>
-    </div> -->
-    <!-- Ends Fun Fact Area -->
-
-    <!-- About Video Area -->
-    <!--  <div class="about-video-area ptb-100">
-      <div class="container">
-        <div class="about-video-contant">
-          <div class="d-table">
-            <div class="d-table-cell">
-              <div class="video-box">
-                <a
-                  href="https://www.youtube.com/watch?v=0gv7OC9L2s8"
-                  class="video-btn popup-youtube"
+        <!-- Pricing Cards Container -->
+        <div
+          class="pricing-container"
+          style="
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+          "
+        >
+          <!-- Basic Plan -->
+          <div
+            class="pricing-card"
+            style="
+              flex: 1;
+              min-width: 280px;
+              max-width: 350px;
+              background-color: #fff;
+              border-radius: 8px;
+              overflow: hidden;
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <!-- Plan Header -->
+            <div
+              style="
+                background-color: #f5f5f5;
+                padding: 20px;
+                text-align: center;
+                border-bottom: 1px solid #eee;
+              "
+            >
+              <h3 style="margin: 0; font-size: 22px; color: #333">
+                Basic Plan
+              </h3>
+              <p
+                style="
+                  font-size: 24px;
+                  color: #c83136;
+                  margin: 10px 0 0 0;
+                  font-weight: bold;
+                "
+              >
+                ₹XXX
+                <span style="font-size: 14px; color: #666; font-weight: normal"
+                  >per month</span
                 >
-                  <i class="las la-play"></i>
-                </a>
-              </div>
+              </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End About Video Area -->
 
-    <!-- About Area -->
-    <!--  <div class="about-area ptb-100">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-5">
-            <div class="about-image">
-              <img src="assets/img/about.png" alt="Image" />
-            </div>
-          </div>
-
-          <div class="col-lg-7">
-            <div class="about-text">
-              <div class="section-title">
-                <span>About Us</span>
-                <h2>
-                  We Are Top Lawyers With<span> 25 Years</span> Of Experience
-                </h2>
-                <p>
-                  But I must explain to you how all this mistaken idea of
-                  denouncing pleasure and praising pain was born and I will give
-                  you a complete account of the system, and expound the actual
-                  teachings of the great explorer of the truth, the
-                  master-builder.
-                </p>
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      100% Success Rate
-                    </li>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      No Need Extra Cost for Consultation
-                    </li>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      Expert Legal Service
-                    </li>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      Highly Recommendation
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      Fast Support
-                    </li>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      High Court Performance
-                    </li>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      Free Counseling
-                    </li>
-                    <li>
-                      <i class="las la-check-square"></i>
-                      Quick Complete Case
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="about-btn">
-                <a href="contact.html" class="default-btn-one me-3"
-                  >Free Consulting</a
+            <!-- Plan Features -->
+            <div style="padding: 20px; flex-grow: 1">
+              <ul style="list-style-type: none; padding: 0; margin: 0">
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
                 >
-              </div>
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Consultation for basic legal queries
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Document review (up to 5 pages)
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Access to essential legal resources
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Email support
+                </li>
+              </ul>
+            </div>
+
+            <!-- CTA Button -->
+            <div style="padding: 20px; text-align: center; margin-top: auto">
+              <a
+                href="#contact"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  padding: 12px 0;
+                  background-color: #c83136;
+                  color: #fff;
+                  text-decoration: none;
+                  font-weight: 600;
+                  border-radius: 4px;
+                  transition: background-color 0.3s ease;
+                "
+                onmouseover="this.style.backgroundColor='#a62328';"
+                onmouseout="this.style.backgroundColor='#c83136';"
+                >Get Started</a
+              >
+            </div>
+          </div>
+
+          <!-- Standard Plan -->
+          <div
+            class="pricing-card"
+            style="
+              flex: 1;
+              min-width: 280px;
+              max-width: 350px;
+              background-color: #fff;
+              border-radius: 8px;
+              overflow: hidden;
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+              display: flex;
+              flex-direction: column;
+              position: relative;
+            "
+          >
+            <!-- Popular Tag -->
+            <div
+              style="
+                position: absolute;
+                top: 10px;
+                right: -30px;
+                background-color: #c83136;
+                color: white;
+                padding: 5px 30px;
+                transform: rotate(45deg);
+                font-size: 12px;
+                font-weight: bold;
+              "
+            >
+              POPULAR
+            </div>
+
+            <!-- Plan Header -->
+            <div
+              style="
+                background-color: #f5f5f5;
+                padding: 20px;
+                text-align: center;
+                border-bottom: 1px solid #eee;
+              "
+            >
+              <h3 style="margin: 0; font-size: 22px; color: #333">
+                Standard Plan
+              </h3>
+              <p
+                style="
+                  font-size: 24px;
+                  color: #c83136;
+                  margin: 10px 0 0 0;
+                  font-weight: bold;
+                "
+              >
+                ₹XXX
+                <span style="font-size: 14px; color: #666; font-weight: normal"
+                  >per month</span
+                >
+              </p>
+            </div>
+
+            <!-- Plan Features -->
+            <div style="padding: 20px; flex-grow: 1">
+              <ul style="list-style-type: none; padding: 0; margin: 0">
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Everything in the Basic Plan
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Contract drafting & review (up to 10)
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Legal strategy for business growth
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Monthly legal check-ins
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Priority email support
+                </li>
+              </ul>
+            </div>
+
+            <!-- CTA Button -->
+            <div style="padding: 20px; text-align: center; margin-top: auto">
+              <a
+                href="#contact"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  padding: 12px 0;
+                  background-color: #c83136;
+                  color: #fff;
+                  text-decoration: none;
+                  font-weight: 600;
+                  border-radius: 4px;
+                  transition: background-color 0.3s ease;
+                "
+                onmouseover="this.style.backgroundColor='#a62328';"
+                onmouseout="this.style.backgroundColor='#c83136';"
+                >Get Started</a
+              >
+            </div>
+          </div>
+
+          <!-- Premium Plan -->
+          <div
+            class="pricing-card"
+            style="
+              flex: 1;
+              min-width: 280px;
+              max-width: 350px;
+              background-color: #fff;
+              border-radius: 8px;
+              overflow: hidden;
+              box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+              display: flex;
+              flex-direction: column;
+            "
+          >
+            <!-- Plan Header -->
+            <div
+              style="
+                background-color: #f5f5f5;
+                padding: 20px;
+                text-align: center;
+                border-bottom: 1px solid #eee;
+              "
+            >
+              <h3 style="margin: 0; font-size: 22px; color: #333">
+                Premium Plan
+              </h3>
+              <p
+                style="
+                  font-size: 24px;
+                  color: #c83136;
+                  margin: 10px 0 0 0;
+                  font-weight: bold;
+                "
+              >
+                ₹XXX
+                <span style="font-size: 14px; color: #666; font-weight: normal"
+                  >per month</span
+                >
+              </p>
+            </div>
+
+            <!-- Plan Features -->
+            <div style="padding: 20px; flex-grow: 1">
+              <ul style="list-style-type: none; padding: 0; margin: 0">
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Everything in the Standard Plan
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Full legal representation for disputes
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Custom contract creation & negotiation
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Risk management & compliance audits
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  Specialized legal teams (tax, IP, etc.)
+                </li>
+                <li
+                  style="
+                    margin-bottom: 12px;
+                    padding-left: 28px;
+                    position: relative;
+                    font-size: 15px;
+                    color: #666;
+                    text-align: left;
+                  "
+                >
+                  <i
+                    class="fas fa-check-circle"
+                    style="
+                      color: #c83136;
+                      position: absolute;
+                      left: 0;
+                      top: 3px;
+                    "
+                  ></i>
+                  24/7 priority support
+                </li>
+              </ul>
+            </div>
+
+            <!-- CTA Button -->
+            <div style="padding: 20px; text-align: center; margin-top: auto">
+              <a
+                href="#contact"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  padding: 12px 0;
+                  background-color: #c83136;
+                  color: #fff;
+                  text-decoration: none;
+                  font-weight: 600;
+                  border-radius: 4px;
+                  transition: background-color 0.3s ease;
+                "
+                onmouseover="this.style.backgroundColor='#a62328';"
+                onmouseout="this.style.backgroundColor='#c83136';"
+                >Get Started</a
+              >
             </div>
           </div>
         </div>
       </div>
-    </div> -->
-    <!-- End About Area -->
-
-    <!-- Contact Area -->
-    <!-- <div class="contact-area ptb-100">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-6">
-            <div class="contact-text">
-              <div class="section-title">
-                <h2>Contact Us Today, Get In Touch With Expert</h2>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit.
-                </p>
-              </div>
-
-              <div class="row justify-content-center">
-                <div class="col-lg-6">
-                  <div class="contact-card">
-                    <span>Phone Number</span>
-                    <h3><a href="tel:+0123456987">+0123 456 987</a></h3>
-                  </div>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="contact-card">
-                    <span>Our Social Link</span>
-                    <ul>
-                      <li>
-                        <a
-                          href="https://www.facebook.com/login/"
-                          target="_blank"
-                        >
-                          <i class="lab la-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://twitter.com/i/flow/login"
-                          target="_blank"
-                        >
-                          <i class="lab la-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.instagram.com/" target="_blank">
-                          <i class="lab la-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.google.co.uk/" target="_blank">
-                          <i class="lab la-google-plus"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="section-title">
-              <span>Contact Form</span>
-              <h2>Get A Flexible Schedule</h2>
-            </div>
-            <div class="contact-form">
-              <form id="contactForm">
-                <div class="row justify-content-center">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="name"
-                        class="form-control"
-                        id="name"
-                        required
-                        data-error="Please enter your name"
-                        placeholder="Full name"
-                      />
-                      <div class="help-block with-errors"></div>
-                      <i class="las la-user"></i>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        name="email"
-                        class="form-control"
-                        id="email"
-                        required
-                        data-error="Please enter your email"
-                        placeholder="Email address"
-                      />
-                      <div class="help-block with-errors"></div>
-                      <i class="las la-envelope"></i>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        name="email"
-                        class="form-control"
-                        id="Phone"
-                        required
-                        data-error="Please enter your phone"
-                        placeholder="Phone No"
-                      />
-                      <div class="help-block with-errors"></div>
-                      <i class="las la-phone"></i>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input
-                        type="date"
-                        name="email"
-                        class="form-control"
-                        id="date"
-                      />
-                      <i class="las la-calendar"></i>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12 col-md-12">
-                    <div class="form-group">
-                      <textarea
-                        name="message"
-                        id="message"
-                        class="form-control"
-                        cols="30"
-                        rows="6"
-                        required
-                        data-error="Please enter your message"
-                        placeholder="Write your message..."
-                      ></textarea>
-                      <div class="help-block with-errors"></div>
-                      <i class="las la-sms"></i>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12 col-md-12">
-                    <button type="submit" class="default-btn-one">
-                      Get An Appointment
-                    </button>
-                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                    <div class="clearfix"></div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End Contact Area -->
-
-    <!-- Partner Slider Area -->
-    <!--   <div class="partner-area ptb-100">
-      <div class="container">
-        <div class="section-title">
-          <span>Our Partner</span>
-          <h2>Trusted By Many Front Line Teams Everywhere</h2>
-        </div>
-
-        <div class="partner-slider owl-carousel owl-theme">
-          <div class="partner-slider-item">
-            <a href="about.html">
-              <img src="assets/img/partner/partner1.png" alt="logo" />
-            </a>
-          </div>
-          <div class="partner-slider-item">
-            <a href="about.html">
-              <img src="assets/img/partner/partner2.png" alt="logo" />
-            </a>
-          </div>
-          <div class="partner-slider-item">
-            <a href="about.html">
-              <img src="assets/img/partner/partner3.png" alt="logo" />
-            </a>
-          </div>
-          <div class="partner-slider-item">
-            <a href="about.html">
-              <img src="assets/img/partner/partner4.png" alt="logo" />
-            </a>
-          </div>
-          <div class="partner-slider-item">
-            <a href="about.html">
-              <img src="assets/img/partner/partner5.png" alt="logo" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End Partner Slider Area -->
+    </div>
 
     <!-- Footer Area-->
     <footer class="footer-area pt-100 pb-70">
@@ -696,12 +820,13 @@
                 <img src="assets/img/logo-white.png" alt="logo" />
               </div>
               <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati cupiditate
-                non provident, similique sunt in culpa qui officia deserunt
-                mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                rerum.
+                At Law Assist, we are committed to delivering expert legal
+                solutions with integrity and precision. Our team takes pride in
+                offering personalized guidance to clients facing complex legal
+                challenges, ensuring transparency and professionalism every step
+                of the way. We believe in making justice accessible and strive
+                to ease the burden of legal procedures with clarity and
+                confidence.
               </p>
 
               <ul class="footer-socials">
@@ -753,22 +878,16 @@
                   </a>
                 </li>
                 <li>
-                  <a href="case-study.html">
+                  <a href="pricing.html">
                     <i class="las la-star"></i>
-                    Case Study
+                    Our Pricing
                   </a>
                 </li>
 
                 <li>
-                  <a href="#">
+                  <a href="ecosystem.html">
                     <i class="las la-star"></i>
-                    Clients Review
-                  </a>
-                </li>
-                <li>
-                  <a href="attorney.html">
-                    <i class="las la-star"></i>
-                    Our Attorneys
+                    Our Ecosystem
                   </a>
                 </li>
               </ul>
@@ -781,45 +900,39 @@
 
               <ul class="footer-text">
                 <li>
-                  <a href="service-details.html">
+                  <a href="services.html">
                     <i class="las la-star"></i>
-                    Civil Law
+                    Company Registration
                   </a>
                 </li>
                 <li>
-                  <a href="service-details.html">
+                  <a href="services.html">
                     <i class="las la-star"></i>
-                    Family Law
+                    Trademark Registration
                   </a>
                 </li>
                 <li>
-                  <a href="service-details.html">
+                  <a href="services.html">
                     <i class="las la-star"></i>
-                    Cyber Law
+                    MCA Compliance
                   </a>
                 </li>
                 <li>
-                  <a href="service-details.html">
+                  <a href="services.html">
                     <i class="las la-star"></i>
-                    Education Law
+                    Legal Drafting
                   </a>
                 </li>
                 <li>
-                  <a href="service-details.html">
+                  <a href="services.html">
                     <i class="las la-star"></i>
-                    Business Law
+                    Patent Filing
                   </a>
                 </li>
                 <li>
-                  <a href="service-details.html">
+                  <a href="services.html">
                     <i class="las la-star"></i>
-                    Investment Law
-                  </a>
-                </li>
-                <li>
-                  <a href="service-details.html">
-                    <i class="las la-star"></i>
-                    Criminal Law
+                    MSME Registration
                   </a>
                 </li>
               </ul>
@@ -833,15 +946,15 @@
               <ul class="info-list">
                 <li>
                   <i class="las la-phone"></i>
-                  <a href="tel:+0123456987">+0123 456 987</a>
+                  <a href="tel:+918766270884">+91 8766270884</a>
                 </li>
                 <li>
                   <i class="las la-envelope"></i>
-                  <a href="mailto:atorn@info.com">atorn@info.com</a>
+                  <a href="mailto:info@lawassist.com">info@lawassist.com</a>
                 </li>
                 <li>
                   <i class="las la-map-marker-alt"></i>
-                  Silven House, 4 Lower Gilmor Bank Edinburgh EH3 9QP, UK
+                  Two Horizon, Gurugram, 122002
                 </li>
               </ul>
             </div>
@@ -855,11 +968,14 @@
     <div class="footer-bottom">
       <div class="container">
         <p>
-          © Atorn is Proudly Owned by
-          <a href="https://hibootstrap.com/" target="_blank">HiBootstrp</a>
+          © Copyright LawAssist. Designed by
+          <a href="https://aetherweb.life" target="_blank"
+            >Aetherweb Technologies LLP</a
+          >
         </p>
       </div>
     </div>
+
     <!-- End Footer bottom Area -->
 
     <!-- Go Top -->
