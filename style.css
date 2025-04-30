@@ -836,6 +836,7 @@ td {
   border: 1px solid transparent;
   color: #fff;
   outline: none;
+  border-radius: 9px;
 }
 .octf-btn:hover,
 .octf-btn:focus {
@@ -5810,7 +5811,7 @@ object {
 .wpcf7 textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.3);
-  color: #fff;
+  color: #101110;
 }
 .wpcf7 input::placeholder,
 .wpcf7 textarea::placeholder {
@@ -6613,7 +6614,7 @@ div.tp-bullet:hover {
   background-color: #f8f8f8;
 }
 .s-counter4 {
-  background-image: linear-gradient(90deg, #00deff 0%, #7141b1 100%);
+  background-image: linear-gradient(90deg, #d03a29 0%, #8b0000 100%);
   padding: 82px 60px 82px 60px;
 }
 .ot-counter .text-white:before {
